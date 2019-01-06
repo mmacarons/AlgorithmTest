@@ -29,6 +29,15 @@ public class MainActivity extends BaseActivity {
                 startActivity(intent);
             }
         });
+
+        question02Btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(mContext, Question02Activity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     @Override
