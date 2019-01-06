@@ -8,6 +8,7 @@ import android.widget.Button;
 public class MainActivity extends BaseActivity {
 
     private android.widget.Button question01Btn;
+    private Button question02Btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +40,7 @@ public class MainActivity extends BaseActivity {
     @Override
     public void bindViews() {
 
+        this.question02Btn = (Button) findViewById(R.id.question02Btn);
         this.question01Btn = (Button) findViewById(R.id.question01Btn);
     }
 }
